@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.activeSubMenuAll{
+    display: block !important;
+}
+.activeMenuAll{
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #F2F2F2;
+    border: 1.5px dotted black;
+}
+.active{
+    display: block !important;
+}
+div.panel{
+    display: none;
+}
+
+a.subMenuAll:hover{
+    text-decoration: underline;
+}
+ul.menuCenter>li:hover{
+    text-decoration: underline;
+
+}
+div.subMenuAll>ul>li:hover{
+    text-decoration: underline;
+}
+div.subMenuAll>ul>li:nth-of-type(1):hover{
+    text-decoration: none;
+}
+
+.activeSearchjs{
+    display: block !important;
+}
+
+div.laptop>div>div>a:hover{
+    text-decoration: underline;
+}
+div.laptop>div>div>a:hover>span{
+    margin-left: 10px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+a.blue:hover{
+    text-decoration: underline;
+}
+a.blue:hover ~ span.blue{
+    margin-left: 10px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+div.business>div>div>a:hover{
+    text-decoration: underline;
+}
+div.business>div>div>a:hover>span{
+    margin-left: 10px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+div.business>div>div>a.businessa:hover{
+    text-decoration: underline;
+}
+div.business>div>div>a.businessa:hover~span.businessa{
+    margin-left: 10px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+div.business>div>div>a.businessb:hover{
+    text-decoration: underline;
+}
+div.business>div>div>a.businessb:hover~span.businessb{
+    margin-left: 10px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+ button.up:hover{
+    background-color: white;
+ }
+
+ div.footer>div>ul>li:hover{
+    text-decoration: underline;
+ }
+ div.footer>div>ul>li:nth-of-type(1):hover{
+    text-decoration: none;
+ }
+ div.footer>div.footerb>ul>li:hover{
+    text-decoration: underline;
+ }
+
+
