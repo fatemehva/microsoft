@@ -5,6 +5,9 @@
 /* body{
     overflow-x: hidden;
 } */
+button.accordion{
+    color: black;
+}
 .activeSubMenuAll{
     display: block !important;
 }
